@@ -114,3 +114,7 @@ footer{
     margin: 10px;
     display: inline-block;
 }
+.aviso{
+    font-size: large;
+    color: red;
+}
