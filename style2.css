@@ -1,0 +1,124 @@
+header{
+	background: #FFF8DC;
+	padding: 20px;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-size: 100px;
+}
+
+.cabecalho{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.livro-img{
+	width: 20%;
+	text-align: center;
+}
+
+/*biblioteca*/
+.container-list{
+	text-align: center;
+}
+
+.proposta{
+	width: 940px;
+	margin: 30px auto;
+
+}
+
+.proposta h2{
+	text-align: center;
+	font-size: 40px;
+	margin: 20px 0;
+}
+
+.proposta p{
+	font-size: 20px;
+}
+
+.proposta p:before{
+	content: "•";
+	margin-right: 2px;
+}
+
+/*sites*/
+.genero{
+	width: 940px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+h3 a{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 20px;
+	box-sizing: border-box;
+	border: #000000 2px solid;
+	border-radius: 10px;
+	display: inline;
+}
+
+h3 a:hover{
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 22px;
+	box-sizing: border-box;
+	border: #666666 2px solid;
+	border-radius: 10px;
+}
+
+footer{
+	background: #FFF8DC;
+	padding: 20px;
+	text-align: center;
+}
+
+.rodape{
+	width: 10%;
+}
+
+.copyright{
+	color: #000000;
+	font-size: 15px;
+	margin: 20px 0 0;
+}
+
+/*generos*/
+.centro{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.historias{
+	display: inline-block;
+	text-align: center;
+	width: 45%;
+	vertical-align: top;
+	margin: 20px 1.5%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: #000000 2px solid;
+	border-radius: 10px;
+}
+
+.historias h4{
+	font-size: 22px;
+	margin: 10px;
+}
+
+.capas{
+	width: 30%;
+	margin: 10px;
+	display: inline-block;
+}
