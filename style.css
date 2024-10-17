@@ -1,10 +1,21 @@
-#imageGallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+/* Estilo para o corpo da página */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20%;
 }
 
-#imageGallery img {
-    max-width: 200px;
-    height: auto;
+/* Estilo para o texto piscante */
+.blink {
+    font-size: 3em;
+    animation: blink-animation 1s steps(2, start) infinite;
+}
+
+/* Animação de piscar */
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
 }
